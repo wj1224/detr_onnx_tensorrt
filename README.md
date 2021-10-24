@@ -99,13 +99,13 @@ INT8
   
 ### inference speed
   
-|Geforce GTX 1080Ti|Pytorch</br>(batch-size 1)|Pytorch</br>(batch-size 4)|TensorRT</br>(batch-size 1|TensorRT</br>(batch-size 4|
+|Geforce GTX 1080Ti|Pytorch</br>(batch-size 1)|Pytorch</br>(batch-size 4)|TensorRT</br>(batch-size 1)|TensorRT</br>(batch-size 4)|
 |:---:|:---:|:---:|:---:|:---:|
 |FP32|42ms|125ms|25ms|96ms|
 |FP16|41ms|114ms|25ms|95ms|
 |INT8|-|-|-|-|
   
-|Titan RTX|Pytorch</br>(batch-size 1)|Pytorch</br>(batch-size 4)|TensorRT</br>(batch-size 1|TensorRT</br>(batch-size 4|
+|Titan RTX|Pytorch</br>(batch-size 1)|Pytorch</br>(batch-size 4)|TensorRT</br>(batch-size 1)|TensorRT</br>(batch-size 4)|
 |:---:|:---:|:---:|:---:|:---:|
 |FP32|29ms|86ms|20ms|70ms|
 |FP16|23ms|49ms|11ms|39ms|
